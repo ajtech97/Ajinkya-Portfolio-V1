@@ -5,7 +5,7 @@ Hey! Welcome to my Portfolio.
 This is my personal portfolio in making. 
 I’m a 22 years old webdesigner and developer.
 
-For new, I Know
+For now, I Know
 
 1. Javascript
 2. NodeJs

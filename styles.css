@@ -27,11 +27,6 @@ hr {
 }
 
 .container-center {
-    max-width: 600px;
-    margin: auto;
-}
-
-.container-center-hero{
     max-width: 800px;
     margin: auto;
 }

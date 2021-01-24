@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #7C3AED;
-    --off-white: #F3F4F6;
-    --dark-gray: #6B7280;
+    --primary-color: #EF4444;
+    --off-white: #FECACA;
+    --dark-gray: #374151;
 }
 
 body {
@@ -31,6 +31,11 @@ hr {
     margin: auto;
 }
 
+.container-center-hero{
+    max-width: 800px;
+    margin: auto;
+}
+
 /** links **/
 .link {
     box-sizing: border-box;
@@ -45,6 +50,8 @@ hr {
     display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
+    text-align: center;
+    margin: auto;
 }
 
 .link-secondary {
@@ -54,9 +61,10 @@ hr {
     display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
+    text-align: center;
+    margin: auto;
 }
 
-/** look into BEM naming convention for CSS **/
 
 /** lists **/
 
@@ -76,7 +84,7 @@ hr {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-bottom-left-radius: 2rem;
 }
 
 .navigation .nav-brand {
@@ -135,14 +143,18 @@ hr {
     background-color: var(--off-white);
 }
 
+.section-technology-color{
+    color: var(--primary-color);
+}
+
 /** footers **/
 
 .footer {
     background-color: var(--primary-color);
-    padding: 4rem 1rem;
+    padding: 1rem 1rem;
     text-align: center;
     color: white;
-    border-top-right-radius: 1rem;
+    border-top-right-radius: 2rem;
 }
 
 .footer .link {
@@ -153,6 +165,20 @@ hr {
     font-weight: bold;
     font-size: large;
 }
+
+.social-links{
+    /* border: solid; */
+    max-width: 500px;
+    margin: auto;
+    padding: 1.5rem 0rem 1rem 0rem;
+}
+
+.list-item-inline-icon {
+    display: inline;
+    padding: 0rem 0rem;
+}
+
+
 
 .footer ul {
     padding-inline-start: 0px;
